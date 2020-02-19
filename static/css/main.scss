@@ -1,0 +1,84 @@
+html {
+  font-style: 20px;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/bg-main.jpg');
+
+  // background-color: #222;
+  color: #eee;
+
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 50px 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .card {
+    flex: 0 0 23.9%;
+    // margin: 15px 10px;
+    min-width: 0;
+  }
+}
+
+ul {
+  // margin-top: 50px;
+  font-size: 20px;
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.collection {
+  color: #222;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 100%;
+}
+
+.card {
+  color: #222;
+}
+
+.artist-page {
+  padding: 30px 50px;
+
+  h2 {
+    font-size: 2.3rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.artist-logo {
+  width: 100%;
+}
+
+.back-home {
+  font-size: 1.2rem;
+}
+
+.p404 {
+  padding: 50px 70px;
+  text-align: center;
+}
